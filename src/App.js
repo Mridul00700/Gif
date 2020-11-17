@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Random from './components/Random';
-import Tag from './components/Tag';
+import Random1 from './components/Random1';
+import Tag1 from './components/Tag1';
 
 const App = () => (
     <div>
         <h1>Random Gif Application</h1>
         <div className="main-container">
-            <Random/>
-            <Tag/>
+            <Random1/>
+            <Tag1/>
         </div>
     </div>
 )
